@@ -1,3 +1,17 @@
+<?php
+
+  include 'DBConnection.php';
+
+  if (isset($_COOKIE['username'])) {
+    $bubblesUsername = $_COOKIE['username'];
+  } 
+  else {
+      header("Location: /login/");
+      exit();
+  }
+
+?>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />

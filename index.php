@@ -14,12 +14,12 @@
 
 <!DOCTYPE html>
 <!-- UI Bubbles Page -->
-<?php
-// Your PHP logic here (e.g., database queries, variables, etc.)
+  <?php
+  // Your PHP logic here (e.g., database queries, variables, etc.)
 
-// Include the HTML template
-include 'templates/index.html';
-?>
+  // Include the HTML template
+  include 'templates/index.html';
+  ?>
 <!-- UI END Bubbles Page -->
 
 <script>
