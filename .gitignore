@@ -32,4 +32,8 @@ bubblesproject/pyvenv.cfg
 bubblesproject/Lib/
 bubblesproject/Scripts
 
+# End of exclustions to test git add
+
+
+
 
