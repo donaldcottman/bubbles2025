@@ -1,17 +1,3 @@
-<?php
-
-  include 'DBConnection.php';
-
-  if (isset($_COOKIE['username'])) {
-    $bubblesUsername = $_COOKIE['username'];
-  } 
-  else {
-      header("Location: /login/");
-      exit();
-  }
-
-?>
-
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -256,7 +242,15 @@
           $datetime->setTimezone($to_timezone);
           $formatted_date = $datetime->format('F j, Y g:i a');
 
-          echo "<div class='replaySessionLine'><div class='replaySessionTimestamp'> " . $formatted_date . " </div><div><button class='replaySession' data-RSNum='" . $row["count"] . "'> Replay Session </button></div>" . "<div class='replaySessionArchiveDuration'>" . $row["duration"] . "</div>" . " <div class='replaySessionUsername'>" . $row["username"] . "</div></div>";
+          echo "<div class='replaySessionLine'>
+                  <div class='replaySessionTimestamp'> " . $formatted_date . " </div>
+                  <div>
+                    <button class='replaySession' data-RSNum='" . $row["count"] . "'> Replay Session 
+                    </button>
+                  </div>" . "
+                  <div class='replaySessionArchiveDuration'>" . $row["duration"] . "</div>" . " 
+                  <div class='replaySessionUsername'>" . $row["username"] . "</div>
+                </div>";
         }
         echo '</div>';
 
