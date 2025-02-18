@@ -50,8 +50,7 @@
     <!-- UI LoggedInAs -->
     <?php
       echo '<div style="position: absolute; right: 45px; top: 30px;">';
-      echo '<div style="margin-bottom: 5px;"> Updated 2/18/2025 11:52am'</div>';
-      echo '<div style="margin-bottom: 5px;"> Logged In As: ' . $bubblesUsername . '</div>';
+      echo '<div style="margin-bottom: 5px;"> 12:05 Logged In As: ' . $bubblesUsername . '</div>';
       echo '<button type="button" id="logoutid" class="btn btn-danger" style="width: 100%">Logout</button>';
       echo '</div>';
     ?>
