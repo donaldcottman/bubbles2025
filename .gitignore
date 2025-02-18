@@ -1,0 +1,16 @@
+# Python/Flask exclusions
+__pycache__/         # Compiled Python bytecode folders
+*.pyc                # Compiled Python files
+*.pyo                # Optimized Python files
+*.pyd                # Python dynamic modules
+*.db                 # SQLite or other local database files
+venv/                # Virtual environment folder
+
+# Sensitive files
+.env                 # Environment variable files with secrets
+config.ini           # Config files that might have sensitive data
+
+# Bitnami/Apache extras
+logs/                # Log files from Apache or app
+*.log                # Any log files
+.htaccess            # Apache config file, unless app-specific
