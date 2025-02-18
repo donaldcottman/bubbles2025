@@ -1,10 +1,19 @@
 # Python/Flask exclusions
 __pycache__/         # Compiled Python bytecode folders
+__pycache__/         # Compiled Python bytecode files
 *.pyc                # Compiled Python files
+__pycache__/app.cpython-310.pyc
+__pycache__/app.cpython-39.pyc
+
 *.pyo                # Optimized Python files
 *.pyd                # Python dynamic modules
 *.db                 # SQLite or other local database files
 venv/                # Virtual environment folder
+venv/lib/
+venv/lib64
+venv/pyvenv.cfg
+venv/share/
+venv/bin/
 **/venv/             # Ignores venv/ anywhere in the project
 
 # Sensitive files
@@ -18,5 +27,9 @@ logs/                # Log files from Apache or app
 
 # Virtual environment
 bubblesproject/      # Virtual environment folder
+bubblesproject/pyvenv.cfg
+
+bubblesproject/Lib/
+bubblesproject/Scripts
 
 
