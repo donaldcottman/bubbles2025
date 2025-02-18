@@ -5,6 +5,7 @@ __pycache__/         # Compiled Python bytecode folders
 *.pyd                # Python dynamic modules
 *.db                 # SQLite or other local database files
 venv/                # Virtual environment folder
+**/venv/             # Ignores venv/ anywhere in the project
 
 # Sensitive files
 .env                 # Environment variable files with secrets
@@ -14,3 +15,8 @@ config.ini           # Config files that might have sensitive data
 logs/                # Log files from Apache or app
 *.log                # Any log files
 .htaccess            # Apache config file, unless app-specific
+
+# Virtual environment
+bubblesproject/      # Virtual environment folder
+
+
