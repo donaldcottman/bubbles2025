@@ -24,7 +24,7 @@ error_reporting(E_ALL);
   // Your PHP logic here (e.g., database queries, variables, etc.)
 
   // Include the HTML template
-  include 'templates/index.html';
+  include 'templates/index.php';
   ?>
 <!-- UI END Bubbles Page -->
 
